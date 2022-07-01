@@ -1,6 +1,6 @@
 for fizzbuzz in range(1,100):
  
-    if fizzbuzz % 5 == 0 && fizzbuzz % 3 == 0:
+    if fizzbuzz % 15 == 0:
         print("FizzBuzz")                                        
         continue
         

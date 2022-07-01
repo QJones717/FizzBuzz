@@ -1,15 +1,19 @@
-for fizzbuzz in range(1,100):
- 
-    if fizzbuzz % 15 == 0:
-        print("FizzBuzz")                                        
-        continue
-        
-    elif fizzbuzz % 3 == 0:    
-        print("Fizz")                                        
-        continue
+def fizzbuzz (s, f):
 
-    elif fizzbuzz % 5 == 0:        
-        print("Buzz")                                    
-        continue
+    for i in range(s, f):
  
-    print(fizzbuzz)
+        if i % 15 == 0:
+            print("FizzBuzz")
+            continue
+
+        elif i % 3 == 0:
+            print("Fizz")
+            continue
+
+        elif i % 5 == 0:
+            print("Buzz")
+            continue
+
+        print(i)
+
+fizzbuzz(1, 101)
